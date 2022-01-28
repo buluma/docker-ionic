@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/beevelop/docker-ionic/Docker%20Image?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/buluma/docker-ionic/Docker%20Image?style=for-the-badge)
 ![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/ionic.svg?style=for-the-badge)
 ![Docker Stars](https://img.shields.io/docker/stars/beevelop/ionic?style=for-the-badge)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/beevelop/ionic/latest?style=for-the-badge)
@@ -23,19 +23,19 @@ docker pull beevelop/ionic:latest
 ### Build from GitHub
 
 ```
-docker build -t beevelop/ionic github.com/beevelop/docker-ionic
+docker build -t buluma/ionic github.com/beevelop/docker-ionic
 ```
 
 ### Run image
 
 ```
-docker run -it beevelop/ionic bash
+docker run -it buluma/ionic bash
 ```
 
 ### Use as base image
 
 ```Dockerfile
-FROM beevelop/ionic:latest
+FROM buluma/ionic:latest
 ```
 
 ---
