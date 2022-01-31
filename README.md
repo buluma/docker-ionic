@@ -13,25 +13,25 @@
 ### Pull from Docker Hub
 
 ```
-docker pull buluma/ionic:latest
+docker pull buluma/docker-ionic:latest
 ```
 
 ### Build from GitHub
 
 ```
-docker build -t buluma/ionic github.com/buluma/docker-ionic
+docker build -t buluma/docker-ionic github.com/buluma/docker-ionic
 ```
 
 ### Run image
 
 ```
-docker run -it buluma/ionic bash
+docker run -it buluma/docker-ionic bash
 ```
 
 ### Use as base image
 
 ```Dockerfile
-FROM buluma/ionic:latest
+FROM buluma/docker-ionic:latest
 ```
 
 ---
